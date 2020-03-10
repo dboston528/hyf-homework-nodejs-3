@@ -6,4 +6,4 @@ app.get('/', (req, res) => res.send('Hello World!'));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
-app.get('/users', (req, res) => res.send(['DeAndre', 'Akilah']));
+app.get('/users', (req, res) => res.send());
